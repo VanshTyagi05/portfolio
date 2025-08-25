@@ -9,7 +9,7 @@ The site is designed to be fully **responsive** and **visually appealing**, with
 ## 🌍 Deployment
 
 This project is deployed and live at:
-👉 https://your-portfolio.vercel.app
+👉 https://portfolio-lac-one-c2tdqt5e0y.vercel.app/
 
 ## 🚀 Features
 
