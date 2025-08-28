@@ -1,4 +1,4 @@
-# 🌐 Kapil Gupta - Portfolio
+# 🌐 Vansh Tyagi - Portfolio
 
 Welcome to my personal portfolio website!  
 This is a **single-page application** built to showcase my **projects, skills, and academic journey**.  
@@ -9,7 +9,7 @@ The site is designed to be fully **responsive** and **visually appealing**, with
 ## 🌍 Deployment
 
 This project is deployed and live at:
-👉 https://portfolio-lac-one-c2tdqt5e0y.vercel.app/
+👉 new link will be added 
 
 ## 🚀 Features
 
