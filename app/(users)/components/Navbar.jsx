@@ -25,7 +25,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo and Site Name */}
           <Link href="/" className="text-3xl font-bold text-blue-600 dark:text-blue-400">
-            My Portfolio
+            Vansh Tyagi
           </Link>
 
           {/* Desktop Navigation Links */}

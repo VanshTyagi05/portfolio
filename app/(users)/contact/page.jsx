@@ -53,14 +53,14 @@ export default function Contact() {
                   <FaEnvelope className="text-purple-400 text-lg mt-1 mr-3 flex-shrink-0" />
                   <div>
                     <p className="text-sm font-semibold text-gray-400">Email</p>
-                    <a href="mailto:your-email@example.com" className="text-white break-words hover:text-purple-300 transition-colors">kapilg.ug23.ee@nitp.ac.in</a>
+                    <a href="mailto:your-email@example.com" className="text-white break-words hover:text-purple-300 transition-colors">vansht.ug23.ec@nitp.ac.in</a>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <FaPhone className="text-purple-400 text-lg mt-1 mr-3 flex-shrink-0" />
                   <div>
                     <p className="text-sm font-semibold text-gray-400">Phone</p>
-                    <p className="text-white">+91-8954866781</p>
+                    <p className="text-white">+91-9012834560</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -76,13 +76,13 @@ export default function Contact() {
             <div className="mt-8">
               <h3 className="text-2xl font-semibold text-white mb-6">Connect With Me</h3>
               <div className="flex space-x-4">
-                <a href="https://github.com/Kapilgupta25" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://github.com/VanshTyagi05" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <FaGithub className="text-3xl text-gray-400 hover:text-white transition-colors duration-300" />
                 </a>
-                <a href="https://www.linkedin.com/in/kapil-gupta-a41216289/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/vansh-tyagi-887a6627a/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <FaLinkedin className="text-3xl text-gray-400 hover:text-white transition-colors duration-300" />
                 </a>
-                <a href="https://www.instagram.com/kapil_gupta25/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <a href="https://www.instagram.com/vanshtyagii_05/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                   <FaInstagram className="text-3xl text-gray-400 hover:text-white transition-colors duration-300" />
                 </a>
               </div>

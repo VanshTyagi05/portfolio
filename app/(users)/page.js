@@ -47,7 +47,7 @@ const HomeSectionContent = () => {
           className="mb-8"
         >
           <Image
-            src="/me.jpg"
+            src="/vansh_image.jpg"
             alt="Kapil Gupta's Profile Picture"
             width={180}
             height={180}
@@ -60,7 +60,7 @@ const HomeSectionContent = () => {
           variants={itemVariants} 
           className="text-3xl md:text-5xl font-extrabold mb-4 text-white"
         >
-          Hello, I&apos;m Kapil Gupta
+          Hello, I&apos;m VANSH TYAGI
         </motion.h1>
         
         {/* Short & Crispy Intro with animation */}
@@ -75,7 +75,7 @@ const HomeSectionContent = () => {
           variants={itemVariants} 
           className="text-2lg md:text-xl text-white max-w-2xl mx-auto leading-relaxed mb-8"
         >
-          Passionate about building scalable and robust web applications. My background in Electrical Engineering from National Institute of Technology Patna, gives me a unique, problem-solving-driven approach to solving complex real-world problems.
+          Passionate about building scalable and robust web applications. My background in Electronics and Communication Engineering from National Institute of Technology Patna, gives me a unique, problem-solving-driven approach to solving complex real-world problems.
         </motion.p>
         
         {/* Call to Action Buttons */}
@@ -91,7 +91,7 @@ const HomeSectionContent = () => {
             View My Work
           </Link>
           <a
-            href="https://drive.google.com/file/d/1P_NuZu5MMxilnnsM3gXTESeNtZCt_N8u/view?usp=drive_link" 
+            href="https://drive.google.com/file/d/1s-lAENiCtDXue3wBr6cnSS8tYGrnKvJX/view" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="inline-block px-8 py-3 bg-gray-100 text-gray-900 font-semibold rounded-full shadow-xl 

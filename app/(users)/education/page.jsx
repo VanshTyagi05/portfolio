@@ -1,9 +1,9 @@
 // (users)/education/page.jsx
 
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { FaGraduationCap, FaCalendarAlt } from 'react-icons/fa';
+import { motion } from "framer-motion";
+import { FaGraduationCap, FaCalendarAlt } from "react-icons/fa";
 import { IoSchool } from "react-icons/io5";
 
 export default function Education() {
@@ -39,48 +39,68 @@ export default function Education() {
             <span>Education</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-400">
-            My academic journey showcasing consistent performance and dedication to learning
+            My academic journey showcasing consistent performance and dedication
+            to learning
           </p>
         </motion.div>
-        
+
         <div className="flex flex-col space-y-8">
           {/* Bachelor's Degree */}
-          <motion.div variants={cardVariants} className="bg-gray-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-purple-800 text-left">
+          <motion.div
+            variants={cardVariants}
+            className="bg-gray-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-purple-800 text-left"
+          >
             <h3 className="text-2xl font-bold text-white mb-2 flex items-center">
               <FaGraduationCap className="text-purple-400 mr-3" />
               Bachelor's Degree
             </h3>
-            <p className="text-xl text-purple-200">Electrical Engineering</p>
-            <p className="text-lg text-gray-300">National Institute of Technology Patna</p>
+            <p className="text-xl text-purple-200">
+              Electronics and Communication Engineering
+            </p>
+            <p className="text-lg text-gray-300">
+              National Institute of Technology Patna
+            </p>
             <div className="flex items-center text-sm text-gray-400 mt-2 space-x-4">
-              <span className="flex items-center"><FaCalendarAlt className="mr-2" /> 2023 - 2027</span>
-              <span className="flex items-center">CGPA: 8.2</span>
+              <span className="flex items-center">
+                <FaCalendarAlt className="mr-2" /> 2023 - 2028
+              </span>
+              <span className="flex items-center">CGPA: 9.3</span>
             </div>
           </motion.div>
 
           {/* Senior Secondary */}
-          <motion.div variants={cardVariants} className="bg-gray-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-purple-800 text-left">
+          <motion.div
+            variants={cardVariants}
+            className="bg-gray-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-purple-800 text-left"
+          >
             <h3 className="text-2xl font-bold text-white mb-2 flex items-center">
               <IoSchool className="text-purple-400 mr-3" />
               Senior Secondary (Class XII)
             </h3>
-            <p className="text-xl text-purple-200">MOUNT HILL ACADEMY School</p>
+            <p className="text-xl text-purple-200">Dron Public School Meerut</p>
             <div className="flex items-center text-sm text-gray-400 mt-2 space-x-4">
-              <span className="flex items-center"><FaCalendarAlt className="mr-2" /> 2021 - 2022</span>
-              <span className="flex items-center">Percentage: 94.4%</span>
+              <span className="flex items-center">
+                <FaCalendarAlt className="mr-2" /> 2022 - 2023
+              </span>
+              <span className="flex items-center">Percentage: 98.4%</span>
             </div>
           </motion.div>
 
           {/* Secondary */}
-          <motion.div variants={cardVariants} className="bg-gray-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-purple-800 text-left">
+          <motion.div
+            variants={cardVariants}
+            className="bg-gray-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-purple-800 text-left"
+          >
             <h3 className="text-2xl font-bold text-white mb-2 flex items-center">
               <IoSchool className="text-purple-400 mr-3" />
               Secondary (Class X)
             </h3>
-            <p className="text-xl text-purple-200">MOUNT HILL ACADEMY School</p>
+            <p className="text-xl text-purple-200">Dron Public School Meerut</p>
             <div className="flex items-center text-sm text-gray-400 mt-2 space-x-4">
-              <span className="flex items-center"><FaCalendarAlt className="mr-2" /> 2019 - 2020</span>
-              <span className="flex items-center">Percentage: 92.4%</span>
+              <span className="flex items-center">
+                <FaCalendarAlt className="mr-2" /> 2020 - 2021
+              </span>
+              <span className="flex items-center">Percentage: 97%</span>
             </div>
           </motion.div>
         </div>

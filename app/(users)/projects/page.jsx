@@ -24,21 +24,29 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "Weather Sphere",
-      description: "A responsive, user-friendly weather application that delivers real-time weather updates. Built using React and Tailwind CSS, it integrates the WeatherAPI to fetch live weather data based on user input.",
-      image: "/WeatherSphere.png",
-      tech: ["React", "Tailwind CSS", "JavaScript", "WeatherAPI"],
-      codeLink: "https://github.com/Kapilgupta25/Weather-Sphere",
-      liveLink: "https://weather-sphere-amber.vercel.app/",
+      title: "Uber Clone",
+      description: "A ride-hailing application that allows users to book rides, view ride history, and manage their profiles. The app features real-time location tracking, fare estimation, and a user-friendly interface.",
+      image: "/Screenshot 2025-08-29 020729.png",
+      tech: ["React","Express.js","Next.js", "Tailwind CSS", "MongoDB", "Google Maps API"],
+      codeLink: "https://github.com/VanshTyagi05/uber",
+      liveLink: "https://uber-frontend-su4m.onrender.com",
     },
     {
-      title: "Tic Tac Toe Game",
-      description: "A classic two-player game built using pure HTML, CSS, and JavaScript. It includes features such as a reset button to clear the current game and a new game button to reinitialize the board for a fresh start.",
-      image: "/Tic-Tac-Toe.png",
-      tech: ["HTML", "CSS", "JavaScript"],
-      codeLink: "https://github.com/Kapilgupta25/Tic-Tac-Toe_Game",
-      liveLink: "#",
+      title: "Movie Recommendation System",
+      description: "A Machine Learning application that provides personalized movie recommendations based on user preferences. It utilizes collaborative filtering and content-based filtering techniques to suggest movies that users are likely to enjoy.",
+      image: "/Screenshot 2025-08-29 021343.png",
+      tech: ["Python", "Pandas", "Scikit-learn", "Streamlit", "HTML/CSS"],
+      codeLink: "https://github.com/VanshTyagi05/movie-recommend-system",
+      liveLink: "https://movie-recommend-system-vanshty.onrender.com",
     },
+    {
+      title:"Decentralized Loan Management System",
+      description: "A blockchain-based application that enables secure and transparent loan management. It allows users to create, manage, and track loans using smart contracts on the Ethereum blockchain.This project won us our college annual Hackathon Hack-o-fest by IEEE NIT Patna.",  
+      image: "/loansystem.jpg",
+      tech: ["Solidity", "Ethereum", "Web3.js", "React", "Tailwind CSS"],
+      codeLink: "https://github.com/TEAM-MAKAVAN/Joining-Hands",
+      liveLink: "#",
+    }
     
     // Add more projects here
   ];

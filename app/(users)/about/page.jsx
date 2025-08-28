@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
 import Image from "next/image";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 import { FaUserCircle } from "react-icons/fa";
 
 export default function About() {
@@ -21,9 +21,26 @@ export default function About() {
   };
 
   const skills = [
-    { title: "Programming Languages", items: ["JavaScript", "C", "C++", "Python", "Solidity"] },
-    { title: "Web Technologies", items: ["React", "Next.js", "Node.js", "Express", "Django", "Tailwind CSS", "Postman", "HTML", "CSS"] },
-    { title: "Databases", items: ["MongoDB", "SQL"] },
+    {
+      title: "Programming Languages",
+      items: ["JavaScript", "C", "C++", "Python", "Java"],
+    },
+    {
+      title: "Web Technologies",
+      items: [
+        "React",
+        "Node.js",
+        "Express",
+        "Django",
+        "Tailwind CSS",
+        "Postman",
+        "HTML",
+        "CSS",
+      ],
+    },
+    { title: "AI & ML", items: ["Deep Learning","TensorFlow", "Keras", "PyTorch", "OpenCV"] },
+    {title:"Generative AI",items:["Langchain","Hugging Face","OpenAI","GPT-3","AI Agents","Prompting"]},
+     { title: "Databases", items: ["MongoDB", "SQL"] },
     { title: "Tools & Platforms", items: ["Git", "GitHub", "Vercel"] },
   ];
 
@@ -51,13 +68,25 @@ export default function About() {
             Who I Am
           </h2>
           <p className="text-lg md:text-xl mb-4 text-gray-200 leading-relaxed">
-            I'm a B.Tech student in Electrical Engineering at the National Institute of Technology, Patna, with a strong passion for web development and problem-solving. My academic journey has fueled my interest in building scalable, robust, and user-friendly full-stack applications that transform ideas into impactful solutions.
+            I'm a B.Tech+M.Tech student in Electronics & Communication
+            Engineering at the National Institute of Technology, Patna, with a
+            strong passion for web development and Deep Learning. My academic
+            journey has fueled my interest in building scalable, robust, and
+            user-friendly full-stack applications that transform ideas into
+            impactful solutions.
           </p>
           <p className="text-lg md:text-xl mb-4 text-gray-200 leading-relaxed">
-            My skills span across MERN stack development, C++, Python, and Data Structures & Algorithms, enabling me to design solutions that are both functional and efficient. I constantly strive to improve my technical expertise and stay adaptable in the ever-evolving tech landscape.
+            My skills span across MERN stack development,AI & ML,Deep Learning,Generative Ai with Langchain, C++, Python, and Data
+            Structures & Algorithms, enabling me to design solutions that are
+            both functional and efficient. I constantly strive to improve my
+            technical expertise and stay adaptable in the ever-evolving tech
+            landscape.
           </p>
           <p className="text-lg md:text-xl mb-4 text-gray-200 leading-relaxed">
-            Beyond academics and coding, I am deeply committed to personal growth and community impact. I enjoy playing chess, cricket, volleyball, and running, which help me stay grounded, disciplined, and energized.
+            Beyond academics and coding, I am deeply committed to personal
+            growth and community impact. I enjoy playing chess, cricket,
+            volleyball, and running, which help me stay grounded, disciplined,
+            and energized.
           </p>
         </motion.div>
 
@@ -68,11 +97,20 @@ export default function About() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {skills.map((skill, index) => (
-              <motion.div key={index} variants={itemVariants} className="bg-gray-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-purple-800">
-                <h3 className="text-2xl font-semibold mb-3 text-purple-300">{skill.title}</h3>
+              <motion.div
+                key={index}
+                variants={itemVariants}
+                className="bg-gray-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-purple-800"
+              >
+                <h3 className="text-2xl font-semibold mb-3 text-purple-300">
+                  {skill.title}
+                </h3>
                 <div className="flex flex-wrap gap-2">
                   {skill.items.map((item, i) => (
-                    <span key={i} className="bg-gray-700 text-gray-200 px-4 py-1 rounded-full text-sm font-medium">
+                    <span
+                      key={i}
+                      className="bg-gray-700 text-gray-200 px-4 py-1 rounded-full text-sm font-medium"
+                    >
                       {item}
                     </span>
                   ))}
