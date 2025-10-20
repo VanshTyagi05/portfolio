@@ -1,10 +1,10 @@
 // (users)/projects/page.jsx
 
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { FaCode, FaExternalLinkAlt } from 'react-icons/fa';
-import Image from 'next/image';
+import { motion } from "framer-motion";
+import { FaCode, FaExternalLinkAlt } from "react-icons/fa";
+import Image from "next/image";
 
 export default function Projects() {
   const containerVariants = {
@@ -25,29 +25,66 @@ export default function Projects() {
   const projects = [
     {
       title: "Uber Clone",
-      description: "A ride-hailing application that allows users to book rides, view ride history, and manage their profiles. The app features real-time location tracking, fare estimation, and a user-friendly interface.",
+      description:
+        "A ride-hailing application that allows users to book rides, view ride history, and manage their profiles. The app features real-time location tracking, fare estimation, and a user-friendly interface.",
       image: "/Screenshot 2025-08-29 020729.png",
-      tech: ["React","Express.js","Next.js", "Tailwind CSS", "MongoDB", "Google Maps API"],
+      tech: [
+        "React",
+        "Express.js",
+        "Next.js",
+        "Tailwind CSS",
+        "MongoDB",
+        "Google Maps API",
+      ],
       codeLink: "https://github.com/VanshTyagi05/uber",
       liveLink: "https://uber-frontend-su4m.onrender.com",
     },
     {
       title: "Movie Recommendation System",
-      description: "A Machine Learning application that provides personalized movie recommendations based on user preferences. It utilizes collaborative filtering and content-based filtering techniques to suggest movies that users are likely to enjoy.",
+      description:
+        "A Machine Learning application that provides personalized movie recommendations based on user preferences. It utilizes collaborative filtering and content-based filtering techniques to suggest movies that users are likely to enjoy.",
       image: "/Screenshot 2025-08-29 021343.png",
       tech: ["Python", "Pandas", "Scikit-learn", "Streamlit", "HTML/CSS"],
       codeLink: "https://github.com/VanshTyagi05/movie-recommend-system",
       liveLink: "https://movie-recommend-system-vanshty.onrender.com",
     },
     {
-      title:"Decentralized Loan Management System",
-      description: "A blockchain-based application that enables secure and transparent loan management. It allows users to create, manage, and track loans using smart contracts on the Ethereum blockchain.This project won us our college annual Hackathon Hack-o-fest by IEEE NIT Patna.",  
+      title: "Decentralized Loan Management System",
+      description:
+        "A blockchain-based application that enables secure and transparent loan management. It allows users to create, manage, and track loans using smart contracts on the Ethereum blockchain.This project won us our college annual Hackathon Hack-o-fest by IEEE NIT Patna.",
       image: "/loansystem.jpg",
       tech: ["Solidity", "Ethereum", "Web3.js", "React", "Tailwind CSS"],
       codeLink: "https://github.com/TEAM-MAKAVAN/Joining-Hands",
       liveLink: "#",
-    }
-    
+    },
+    {
+      title: "GenAI Based Personal Assistant",
+      description:
+        "An AI-powered personal assistant that helps users manage their daily tasks, send gamils, schedule meetings on google calender, can perform tasks on my voice command and can open anything in my localmachine .",
+      image: "",
+      tech: [],
+      codeLink: "https://github.com/VanshTyagi05/assistant.git",
+      liveLink: "#",
+    },
+    {
+      title: "Open CV Based ATTENDANCE System",
+      description:
+        "An attendance system that uses facial recognition technology to mark attendance of students/employees. The system captures images of faces, processes them using OpenCV, and matches them against a database of registered faces to record attendance automatically.",
+      image: "",
+      tech: [],
+      codeLink: "https://github.com/VanshTyagi05/attendence_system_local.git",
+      liveLink: "#",
+    },
+    {
+      title: "Django Based Blog Website",
+      description:
+        "A blog website built using Django framework that allows users to create, edit, and delete blog posts. The website features user authentication, comment sections, and a responsive design for optimal viewing on various devices.",
+      image: "",
+      tech: [],
+      codeLink: "",
+      liveLink: "#",
+    },
+
     // Add more projects here
   ];
 
@@ -65,7 +102,8 @@ export default function Projects() {
             <span>My Projects</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-400">
-            Here are some of the projects I've completed across different programming languages and technologies.
+            Here are some of the projects I've completed across different
+            programming languages and technologies.
           </p>
         </motion.div>
 
@@ -86,11 +124,18 @@ export default function Projects() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-bold text-white mb-2">{project.title}</h3>
-                <p className="text-gray-300 text-sm leading-relaxed mb-4">{project.description}</p>
+                <h3 className="text-2xl font-bold text-white mb-2">
+                  {project.title}
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                  {project.description}
+                </p>
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.tech.map((tech, i) => (
-                    <span key={i} className="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-xs font-medium">
+                    <span
+                      key={i}
+                      className="bg-gray-700 text-gray-200 px-3 py-1 rounded-full text-xs font-medium"
+                    >
                       {tech}
                     </span>
                   ))}
