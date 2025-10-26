@@ -60,11 +60,11 @@ export default function Projects() {
     {
       title: "GenAI Based Personal Assistant",
       description:
-        "An AI-powered personal assistant that helps users manage their daily tasks, send gamils, schedule meetings on google calender, can perform tasks on my voice command and can open anything in my localmachine .",
+        "An AI-powered personal assistant that helps me to  manage  daily tasks, send gmails, schedule meetings on google calender, can perform tasks on my voice command and can open anything in my localmachine .",
       image: "",
       tech: [],
       codeLink: "https://github.com/VanshTyagi05/assistant.git",
-      liveLink: "#",
+      liveLink: "https://youtu.be/HUXPpET1pR4",
     },
     {
       title: "Open CV Based ATTENDANCE System",
@@ -115,13 +115,23 @@ export default function Projects() {
               className="bg-gray-800 bg-opacity-50 backdrop-blur-sm rounded-xl shadow-lg border-2 border-transparent hover:border-purple-600 transform hover:scale-105 transition-all duration-300 overflow-hidden text-left"
             >
               <div className="relative w-full h-48">
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  layout="fill"
-                  objectFit="cover"
-                  className="rounded-t-xl"
-                />
+                {project.title === "GenAI Based Personal Assistant" ? (
+                  <iframe
+                    src="https://www.youtube.com/embed/HUXPpET1pR4"
+                    title="GenAI Based Personal Assistant Demo"
+                    className="w-full h-full rounded-t-xl"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                ) : (
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    layout="fill"
+                    objectFit="cover"
+                    className="rounded-t-xl"
+                  />
+                )}
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold text-white mb-2">
